@@ -91,23 +91,27 @@ body{
 }
 
 .container article a{
-    display: inline-block;
+    display: block;
     background-color: #ccc;
     padding: 12px;
     margin: 16px;
     color: blue;
     border-radius: 5px;
     margin-top: 5px;
+    margin-left: auto;
+    width: fit-content;
 
 }
 
-footer{
+.rodape{
     text-align: center;
     color: white;
-    background-color: rgb(94, 92, 92);
+    background-color: #6b6c86;
     display: inline-block;
     width: 100%;
     margin-top: 26px;
     padding: 8px;
     text-shadow: 2px 2px 2px black;
+    letter-spacing: 2px;
 }
+
